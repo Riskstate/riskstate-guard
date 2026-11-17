@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riskstate-guard"
+version = "0.1.0"
+description = "Enforce RiskState pre-trade risk permissions locally: size caps, entry blocking, fail-closed, shadow mode. Includes a Freqtrade mixin."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "RiskState" }]
+keywords = ["crypto", "bitcoin", "ethereum", "trading", "risk-management", "freqtrade", "trading-bot", "riskstate"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://riskstate.ai"
+Documentation = "https://riskstate.ai/docs/api"
+Repository = "https://github.com/Riskstate/riskstate-guard"
+"Bug Tracker" = "https://github.com/Riskstate/riskstate-guard/issues"
+
+[tool.setuptools]
+packages = ["riskstate_guard"]
