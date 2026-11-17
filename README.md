@@ -42,6 +42,7 @@ class MyStrategy(RiskStateMixin, IStrategy):     # mixin first
 ```
 
 That is the whole integration. A full strategy is in [`examples/`](examples/RiskStateSampleStrategy.py).
+Documentation: [riskstate.ai/docs/freqtrade](https://riskstate.ai/docs/freqtrade).
 
 The mixin hooks three callbacks:
 
